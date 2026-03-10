@@ -64,7 +64,7 @@ export default function Layout() {
           </div>
         </div>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-800 text-sm text-center">
-          &copy; {new Date().getFullYear()} elementor.skin. All rights reserved.
+          &copy; 2025 elementor.skin. All rights reserved.
         </div>
       </footer>
     </div>
