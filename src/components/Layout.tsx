@@ -8,7 +8,7 @@ export default function Layout() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 text-indigo-600 font-bold text-xl tracking-tight">
             <LayoutDashboard className="w-6 h-6" />
-            <span>elements-page.com</span>
+            <span>elementor.skin</span>
           </Link>
           <nav className="hidden md:flex gap-6">
             <Link to="/blog" className="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Blog</Link>
@@ -26,7 +26,7 @@ export default function Layout() {
           <div>
             <div className="flex items-center gap-2 text-white font-bold text-xl mb-4">
               <LayoutDashboard className="w-6 h-6" />
-              <span>elements-page.com</span>
+              <span>elementor.skin</span>
             </div>
             <p className="text-sm leading-relaxed">
               Your ultimate guide to mastering Elementor. We provide in-depth tutorials, reviews, and tips to help you build better WordPress websites.
@@ -64,7 +64,7 @@ export default function Layout() {
           </div>
         </div>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-800 text-sm text-center">
-          &copy; {new Date().getFullYear()} elements-page.com. All rights reserved.
+          &copy; {new Date().getFullYear()} elementor.skin. All rights reserved.
         </div>
       </footer>
     </div>

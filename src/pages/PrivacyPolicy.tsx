@@ -5,7 +5,7 @@ export default function PrivacyPolicy() {
       
       <div className="prose prose-slate max-w-none prose-headings:font-bold">
         <h2>Who we are</h2>
-        <p>Our website address is: https://elements-page.com.</p>
+        <p>Our website address is: https://www.elementor.skin.</p>
 
         <h2>Comments</h2>
         <p>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor's IP address and browser user agent string to help spam detection.</p>

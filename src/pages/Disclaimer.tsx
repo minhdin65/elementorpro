@@ -14,7 +14,7 @@ export default function Disclaimer() {
 
         <h2>General Information</h2>
         <p>
-          The information provided by elements-page.com on this website is for general informational purposes only. All information on the site is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.
+          The information provided by elementor.skin on this website is for general informational purposes only. All information on the site is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.
         </p>
 
         <h2>Professional Disclaimer</h2>

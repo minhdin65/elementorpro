@@ -47,8 +47,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-medium text-slate-900">Email</p>
-                  <a href="mailto:support@elements-page.com" className="text-slate-600 hover:text-indigo-600 transition-colors">
-                    support@elements-page.com
+                  <a href="mailto:support@elementor.skin" className="text-slate-600 hover:text-indigo-600 transition-colors">
+                    support@elementor.skin
                   </a>
                 </div>
               </div>
