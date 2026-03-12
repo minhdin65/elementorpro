@@ -222,7 +222,7 @@ export default function Admin() {
       </div>
 
       <p className="text-xs text-slate-400 mt-6 text-center">
-        Admin panel requires the server to be running. For static deploy, redirect uses default config.
+        On Vercel: add Vercel Blob storage to save changes. Or set REDIRECT_ENABLED, REDIRECT_URL in Environment Variables.
       </p>
     </div>
   );
