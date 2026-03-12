@@ -12,6 +12,10 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 import Disclaimer from "./pages/Disclaimer";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import Product from "./pages/Product";
+import Products from "./pages/Products";
+import Checkout from "./pages/Checkout";
+import ThankYou from "./pages/ThankYou";
 
 export default function App() {
   return (
@@ -19,6 +23,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="product" element={<Product />} />
+          <Route path="products" element={<Products />} />
+          <Route path="checkout" element={<Checkout />} />
+          <Route path="thank-you" element={<ThankYou />} />
           <Route path="blog" element={<Blog />} />
           <Route path="post/:id" element={<Post />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />

@@ -11,6 +11,7 @@ export default function Layout() {
             <span>elementor.skin</span>
           </Link>
           <nav className="hidden md:flex gap-6">
+            <Link to="/products" className="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Products</Link>
             <Link to="/blog" className="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Blog</Link>
             <Link to="/contact" className="text-slate-600 hover:text-indigo-600 font-medium transition-colors">Contact</Link>
           </nav>

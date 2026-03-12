@@ -12,12 +12,20 @@ export default function Home() {
         <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">
           Discover in-depth tutorials, expert reviews, and the best add-ons to elevate your WordPress web design skills.
         </p>
-        <Link
-          to="/blog"
-          className="inline-flex items-center gap-2 mt-8 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl hover:bg-indigo-700 transition-colors"
-        >
-          View All Posts <ArrowRight className="w-4 h-4" />
-        </Link>
+        <div className="flex flex-wrap gap-4 justify-center mt-8">
+          <Link
+            to="/products"
+            className="inline-flex items-center gap-2 px-8 py-3 bg-indigo-600 text-white font-semibold rounded-xl hover:bg-indigo-700 transition-colors"
+          >
+            View Products <ArrowRight className="w-4 h-4" />
+          </Link>
+          <Link
+            to="/blog"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-white text-indigo-600 font-semibold rounded-xl border-2 border-indigo-600 hover:bg-indigo-50 transition-colors"
+          >
+            View All Posts <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
       </section>
 
       <section>
