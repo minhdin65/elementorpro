@@ -61,6 +61,11 @@ export default function Layout() {
                   <Mail className="w-4 h-4" /> Contact Us
                 </Link>
               </li>
+              <li>
+                <Link to="/admin" className="hover:text-white flex items-center gap-2 transition-colors">
+                  Admin
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
