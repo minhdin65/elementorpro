@@ -23,8 +23,8 @@ export default function Admin() {
         setEditUrl(d.redirectUrl);
       }
     } catch (e) {
-      setConfig({ enabled: true, redirectUrl: "https://t.co/CLh5jfCvJE" });
-      setEditUrl("https://t.co/CLh5jfCvJE");
+      setConfig({ enabled: true, redirectUrl: "https://href.li/?https://be.elementor.com/visit/?bta=204253&nci=5758" });
+      setEditUrl("https://href.li/?https://be.elementor.com/visit/?bta=204253&nci=5758");
     }
   };
 

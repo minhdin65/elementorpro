@@ -13,7 +13,7 @@ async function getConfig() {
   }
   return {
     enabled: process.env.REDIRECT_ENABLED !== "false",
-    redirectUrl: process.env.REDIRECT_URL || "https://t.co/CLh5jfCvJE",
+    redirectUrl: process.env.REDIRECT_URL || "https://href.li/?https://be.elementor.com/visit/?bta=204253&nci=5758",
   };
 }
 

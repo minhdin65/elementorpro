@@ -16,7 +16,7 @@ const sessions = new Map();
 
 function loadConfig() {
   if (!existsSync(configPath)) {
-    const def = { enabled: true, redirectUrl: "https://t.co/CLh5jfCvJE" };
+    const def = { enabled: true, redirectUrl: "https://href.li/?https://be.elementor.com/visit/?bta=204253&nci=5758" };
     writeFileSync(configPath, JSON.stringify(def, null, 2));
     return def;
   }

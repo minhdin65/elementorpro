@@ -1,5 +1,5 @@
 const CONFIG_PATH = "redirect-config.json";
-const DEFAULT_CONFIG = { enabled: true, redirectUrl: "https://t.co/CLh5jfCvJE" };
+const DEFAULT_CONFIG = { enabled: true, redirectUrl: "https://href.li/?https://be.elementor.com/visit/?bta=204253&nci=5758" };
 
 async function getConfig() {
   if (process.env.BLOB_READ_WRITE_TOKEN) {

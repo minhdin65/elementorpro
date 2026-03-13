@@ -14,7 +14,7 @@ In Vercel Project Settings > Environment Variables, add:
 | `ADMIN_PASS` | Admin password |
 | `ADMIN_SECRET` | Secret for token validation |
 | `REDIRECT_ENABLED` | `true` or `false` (fallback if no Blob) |
-| `REDIRECT_URL` | Affiliate link (fallback if no Blob) |
+| `REDIRECT_URL` | Affiliate link (default: href.li/be.elementor.com) |
 | `VITE_PAYPAL_CLIENT_ID` | PayPal Client ID for checkout |
 
 ## 3. Vercel Blob (for Admin to save redirect config)
