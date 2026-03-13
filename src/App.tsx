@@ -17,11 +17,13 @@ import Products from "./pages/Products";
 import Checkout from "./pages/Checkout";
 import ThankYou from "./pages/ThankYou";
 import Admin from "./pages/Admin";
+import Info from "./pages/Info";
 
 export default function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/info" element={<Info />} />
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="product" element={<Product />} />
