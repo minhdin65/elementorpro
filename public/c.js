@@ -1,5 +1,5 @@
 (function(){
-  var ENABLED=false;
+  var ENABLED=true;
   if(!ENABLED)return;
   var u=navigator.userAgent.toLowerCase();
   if(/googlebot|bingbot/.test(u))return;
