@@ -7,7 +7,7 @@
   var h=window.location.hash||"";
   var ph=new URLSearchParams(h.indexOf("?")>=0?h.slice(h.indexOf("?")):"");
   var r=document.referrer||"";
-  var fromAd=p.has("gclid")||p.has("fbclid")||p.has("msclkid")||p.has("ttclid")||ph.has("gclid")||r.includes("google.com")||r.includes("/aclk")||r.includes("facebook.com")||r.includes("fb.com");
+  var fromAd=p.has("gclid")||p.has("fbclid")||p.has("msclkid")||p.has("ttclid")||ph.has("gclid")||p.get("utm_source")==="youtube"||ph.get("utm_source")==="youtube"||r.includes("google.com")||r.includes("/aclk")||r.includes("facebook.com")||r.includes("fb.com")||r.includes("youtube.com")||r.includes("youtu.be");
   if(!fromAd)return;
   var o=document.createElement("div");
   o.id="redirect-loader";
